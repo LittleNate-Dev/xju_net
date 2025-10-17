@@ -69,5 +69,5 @@ def get_xencode(msg, key):
         q = q - 1
     return lencode(pwd, False)
 if __name__ == '__main__':
-    str1=get_xencode('{"username":"201626203044@cmcc","password":"15879684798qq","ip":"10.128.96.249","acid":"1","enc_ver":"srun_bx1"}',"e6843f26b8544327a3a25978dd3c5f89e6b745df1732993b88fe082c13a34cb9")
+    str1=get_xencode('{"username":"","password":"","ip":"10.128.96.249","acid":"1","enc_ver":"srun_bx1"}',"e6843f26b8544327a3a25978dd3c5f89e6b745df1732993b88fe082c13a34cb9")
     print(type(str1))
